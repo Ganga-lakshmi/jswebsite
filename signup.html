@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script defer src="script.js"></script>
+</head>
+<body>
+	<h2 id="ff">creating form</h2><br><br>
+	<div id="fd">
+		<p class="para">register the form</p>
+		<p></p>
+	<form onsubmit="return validate()" action="message.html">
+		<div>
+			<label for="name">Name</label>
+			<input id="user" name="name" type="text" ><br><br>
+		</div>
+		<div>
+			<label for="password">Password</label>
+			<input id="pw" name="password" type="password"><br><br>
+		</div>
+		<button  id="submit" type="submit">submit</button>
+		<button class="clear" type="clear">clear</button>
+	</div>
+	<p class="para">form creation is completed</p>
+	<p>the below are the buttons</p>
+		<div>
+			<button id="jsbtn" onclick="newWindow();">open</button>
+			<button id="jsbtn2" onclick="closeWindow();">close</button>
+		</div>
+	</form>
+
+</body>
+</html>
